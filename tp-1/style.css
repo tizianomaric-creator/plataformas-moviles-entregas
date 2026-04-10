@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    display: flex;
+    border-bottom: 2px solid black;
+}
+.a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.presentacion{
+
+    display: flex;
+    width: 40%;
+    height: 90%;
+    margin-left: 6rem;
+    text-align:center;
+    margin-right: 3rem;
+    
+}
+.foto{
+    display: flex;
+    width: 18rem;
+    height: 12rem;
+    margin-top: 2rem;
+}
+.img{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+}
+.nom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(63, 122, 122);
+}
